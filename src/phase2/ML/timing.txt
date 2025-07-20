@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/benga013/phase2/ML/coordinator_node.py", line 436, in <module>
+  File "/home/benga013/phase2/ML/coordinator_node.py", line 432, in main
+  File "/home/benga013/.local/lib/python3.12/site-packages/thrift/server/TServer.py", line 83, in serve
+    client = self.serverTransport.accept()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/benga013/.local/lib/python3.12/site-packages/thrift/transport/TSocket.py", line 245, in accept
+    client, addr = self.handle.accept()
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 295, in accept
+    fd, addr = self._accept()
+               ^^^^^^^^^^^^^^
+KeyboardInterrupt
